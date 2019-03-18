@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 repositories {
+    google()
     mavenCentral()
 }
 
 buildscript {
     repositories {
-        google()
         jcenter()
     }
     dependencies {
